@@ -4,16 +4,38 @@ title: About
 permalink: /about/
 ---
 
-## Theme Monos
-> Simple and lightweight theme for Jekyll
+## The CONCERT Campaign
+> Coordinated Observations of Nebula in the Central molecular zone Exploring gas Recycling and Transformation
 
 ### Features
-- Responsive.
-- Syntax Highlight
-- Most optimized theme for tech blog.
-- Lightweight with minimum stylesheet.
-- Easy to customize.
-- Offers category menu.
+- Coordianted observations of a small sample of four clouds in the CMZ.
+- Deep imaging, mosaicking, long-baselines, polarization, high frequencies---pushing the capabilities of telescopes to their limits.
+
+### Team
+- Xing Lu (SHAO)
+- Jixiang Weng (SHAO)
+- Feichi Li (SHAO)
+- Guangran Wang (SHAO & KMUST)
+- Yuhua Liu (SHAO)
+- Jiancheng Feng (SHAO)
+- Xu Zhang (SHAO)
+- Suinan Zhang (Science Tokyo)
+- Fengwei Xu (MPIA)
+- Kai Yang (STJU)
+- Zhenying Zhang (YNU & SHAO)
+- Yu Cheng (NAOJ)
+- Shanghuo Li (NJU)
+- Junhao Liu (NAOJ)
+- Xing Pan (NJU)
+- Qizhou Zhang (Cfa | Harvard & Smithsonian)
+- Adam Ginsburg (U. Florida)
+- Hauyu Baobao Liu (NSYSU)
+- Cara Battersby (UConn)
+- Daniel Walker (UK ARC)
+- Ashley Barnes (ESO)
+- Jonathan Henshaw (MPIfR)
+- John Bally (U. Colorado)
+- et al.
 
 ### _config.yml
 > Code block will look like this.
