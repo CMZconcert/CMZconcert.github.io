@@ -1,59 +1,31 @@
----
-layout: page
-title: About
-permalink: /about/
----
+# CONCERT Website
 
-## The CONCERT Campaign
-> Coordinated Observations of Nebula in the Central molecular zone Exploring gas Recycling and Transformation
+This repository hosts the GitHub Pages site for the CONCERT campaign:
 
-### Features
-- Coordianted observations of a small sample of four clouds in the CMZ.
-- Deep imaging, mosaicking, long-baselines, polarization, high frequencies---pushing the capabilities of telescopes to their limits.
+**Coordinated Observations of Nebulae in the Central Molecular Zone Exploring gas Recycling and Transformation**
 
-### Team
-- Xing Lu (SHAO)
-- Jixiang Weng (SHAO)
-- Feichi Li (SHAO)
-- Guangran Wang (SHAO & KMUST)
-- Yuhua Liu (SHAO)
-- Jiancheng Feng (SHAO)
-- Xu Zhang (SHAO)
-- Suinan Zhang (Science Tokyo)
-- Fengwei Xu (MPIA)
-- Kai Yang (STJU)
-- Zhenying Zhang (YNU & SHAO)
-- Xing Pan (NJU)
-- Yu Cheng (NAOJ)
-- Shanghuo Li (NJU)
-- Junhao Liu (NAOJ)
-- Sihan Jiao (MPIA)
-- Qizhou Zhang (CfA \| Harvard & Smithsonian)
-- Adam Ginsburg (U. Florida)
-- Hauyu Baobao Liu (NSYSU)
-- Cara Battersby (UConn)
-- Daniel Walker (UK ARC)
-- Ashley Barnes (ESO)
-- Jonathan Henshaw (MPIfR)
-- Elizabeth A. C. Mills (Kansas)
-- Thushara Pillai (MIT)
-- Jens Kauffmann (MIT Haystack)
-- Steven Longmore (LJMU)
-- et al.
+The public site is built with Jekyll and published at:
 
-### _config.yml
-> Code block will look like this.
-```yml
-highlighter-theme: monokai //you can change your syntax color scheme.
-date_format: "%Y-%M-%D" //and date format.
+https://CMZconcert.github.io
+
+## Local Preview
+
+```bash
+bundle install
+bundle exec jekyll serve
 ```
 
-### Screenshots
-#### Page
-![alt text](/public/img/screenshot-1.png)
-#### Articles
-![alt text](/public/img/screenshot-2.png)
-#### Page - Mobile
-![alt text](/public/img/screenshot-m1.png)
-#### Page - Articles
-![alt text](/public/img/screenshot-m2.png)
+If the local Ruby/Jekyll setup is unavailable, the source can still be inspected as a mostly static landing page in `index.md`, with shared layout in `_includes/default.html` and styling in `public/css/style.css`. On macOS, `bundle install` may require the Xcode Command Line Tools because Jekyll installs native Ruby extensions.
+
+## Content Focus
+
+The homepage is organized around the logic of the campaign:
+
+- why a deep small-sample campaign complements large CMZ surveys;
+- how CONCERT connects clouds, filaments, cores, and disks;
+- how QUARTET, MAZURKA, POLKA, BALLAD, and DUET fit together;
+- how the campaign publications build a linked argument about star formation in the CMZ.
+
+The ADS publication library is:
+
+https://ui.adsabs.harvard.edu/public-libraries/ZWd6s-SbQcWQBeDGrC3kiw

@@ -1,19 +1,26 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
-  <style>@import url(/public/css/syntax/{{ site.highlighter-theme }}.css);</style>
-  <title>{{ site.title }}</title>
-  <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
-
-  <link href="/public/css/style.css" rel="stylesheet">
   <body>
-  	<div class="container"> 
-		<div class="sidebar">
-			{% include sidebar.html %}
-		</div>
-		<div class="content">
-			{{ content }}
-		</div>
-	</div>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <div class="nav-links">
+          <a href="{{ '/' | relative_url }}#logic">Campaign Logic</a>
+          <a href="{{ '/' | relative_url }}#programs">Programs</a>
+          <a href="{{ '/' | relative_url }}#publications">Publications</a>
+          <a href="{{ '/' | relative_url }}#team">Team</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>{{ site.title }} &middot; {{ site.description }}</p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a> &middot; <a href="https://github.com/{{ site.github_username }}">GitHub</a></p>
+    </footer>
   </body>
 </html>
