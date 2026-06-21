@@ -29,3 +29,13 @@ The homepage is organized around the logic of the campaign:
 The ADS publication library is:
 
 https://ui.adsabs.harvard.edu/public-libraries/ZWd6s-SbQcWQBeDGrC3kiw
+
+## Adding Publications
+
+Publication cards are generated from `_data/publications.yml`. To add a new CONCERT result:
+
+1. Copy an existing item in `_data/publications.yml`.
+2. Update `id`, `bibcode`, `year`, `citation`, `title`, `scale`, `program`, `summary`, and the ADS/arXiv/DOI links.
+3. Set `order` to control where the paper appears in the campaign narrative.
+
+No HTML changes are needed for routine publication updates.

@@ -256,14 +256,51 @@ h3 {
 }
 
 .publication-card time,
-.publication-card .scale {
+.publication-card .scale,
+.publication-phase,
+.publication-program {
   color: var(--muted);
   font-size: 0.88rem;
   font-weight: 650;
 }
 
+.publication-topline,
+.publication-tags,
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.publication-phase {
+  border-radius: 999px;
+  background: var(--surface-soft);
+  padding: 0.12rem 0.45rem;
+}
+
+.publication-tags {
+  justify-content: flex-start;
+}
+
+.publication-program {
+  border-left: 1px solid var(--border);
+  padding-left: 0.5rem;
+}
+
 .publication-card a {
   font-weight: 760;
+}
+
+.publication-title {
+  color: var(--accent-dark);
+  font-weight: 720;
+}
+
+.publication-links {
+  justify-content: flex-start;
+  font-size: 0.88rem;
 }
 
 .flow {

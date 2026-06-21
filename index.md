@@ -110,71 +110,32 @@ description: A coordinated, multi-wavelength campaign to understand how star for
 <section id="publications" class="section">
   <p class="eyebrow">Publication Map</p>
   <h2>How the papers connect</h2>
-  <p class="section-intro">The publications below are organized by the question they answer in the campaign, not simply by date. Together they build the ladder from cloud-scale structure to disk-scale accretion.</p>
+  <p class="section-intro">The publication map is organized by the question each paper answers. It begins with foundation papers that define the CMZ star-formation problem, then follows the CONCERT sequence from cloud-scale structure to disk-scale accretion.</p>
   <div class="grid">
-    <article class="publication-card">
-      <time>2020</time>
-      <span class="scale">Cloud fragmentation</span>
-      <a href="https://arxiv.org/abs/2004.09532" target="_blank" rel="noopener">Lu et al. - Jeans Fragmentation and Cluster Formation</a>
-      <p>Establishes the ALMA cloud sample and asks how the dense gas fragments under CMZ pressures.</p>
+    {% assign publications = site.data.publications | sort: "order" %}
+    {% for paper in publications %}
+    <article class="publication-card" id="{{ paper.id }}">
+      <div class="publication-topline">
+        <time>{{ paper.year }}</time>
+        <span class="publication-phase">{{ paper.phase }}</span>
+      </div>
+      <p class="publication-tags">
+        <span class="scale">{{ paper.scale }}</span>
+        <span class="publication-program">{{ paper.program }}</span>
+      </p>
+      <a href="{{ paper.adsurl }}" target="_blank" rel="noopener">{{ paper.citation }}</a>
+      <p class="publication-title">{{ paper.title }}</p>
+      <p>{{ paper.summary }}</p>
+      <p class="publication-links">
+        <a href="{{ paper.adsurl }}" target="_blank" rel="noopener">ADS</a>
+        {% if paper.arxiv %}<a href="{{ paper.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+        {% if paper.doi %}<a href="{{ paper.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+      </p>
     </article>
-    <article class="publication-card">
-      <time>2021</time>
-      <span class="scale">Feedback and embedded activity</span>
-      <a href="https://arxiv.org/abs/2101.07925" target="_blank" rel="noopener">Lu et al. - Ubiquitous Protostellar Outflows</a>
-      <p>Shows that embedded star formation is widespread once outflows are traced at high resolution.</p>
-    </article>
-    <article class="publication-card">
-      <time>2022</time>
-      <span class="scale">Disk-scale test</span>
-      <a href="https://arxiv.org/abs/2206.00202" target="_blank" rel="noopener">Lu et al. - A Massive Keplerian Protostellar Disk with Flyby-induced Spirals</a>
-      <p>Pushes to long baselines and asks whether massive protostellar disks in the CMZ resemble Galactic disk counterparts.</p>
-    </article>
-    <article class="publication-card">
-      <time>2024</time>
-      <span class="scale">Magnetic-field context</span>
-      <a href="https://arxiv.org/abs/2312.01776" target="_blank" rel="noopener">Lu et al. - Magnetic Fields in the Central Molecular Zone</a>
-      <p>Places core-scale polarization work into the broader CMZ magnetic-field environment.</p>
-    </article>
-    <article class="publication-card">
-      <time>2025</time>
-      <span class="scale">Core statistics</span>
-      <a href="https://arxiv.org/abs/2412.01593" target="_blank" rel="noopener">Zhang et al. - External-Pressure-Confined Dense Cores and Salpeter-like CMFs</a>
-      <p>Links CMZ pressure confinement to core mass functions, setting the statistical baseline for star formation models.</p>
-    </article>
-    <article class="publication-card">
-      <time>2025</time>
-      <span class="scale">Filaments and shocks</span>
-      <a href="https://arxiv.org/abs/2502.03913" target="_blank" rel="noopener">Yang et al. - Slim Filaments Tracing Parsec-scale Shocks</a>
-      <p>Shows how thin filamentary structures can record cloud-scale shocks and gas transport.</p>
-    </article>
-    <article class="publication-card">
-      <time>2025</time>
-      <span class="scale">Protocluster organization</span>
-      <a href="https://arxiv.org/abs/2503.00878" target="_blank" rel="noopener">Zhang et al. - Subclustering and Star Formation Efficiency</a>
-      <p>Connects the dense-core census to the way protoclusters assemble in the CMZ environment.</p>
-    </article>
-    <article class="publication-card">
-      <time>2025</time>
-      <span class="scale">Cloud-wide continuum census</span>
-      <a href="https://arxiv.org/abs/2503.23700" target="_blank" rel="noopener">Xu et al. - DUET Cloud-wide Census of Continuum Sources</a>
-      <p>Uses two bands to separate source populations and identify low spectral-index objects across three clouds.</p>
-    </article>
-    <article class="publication-card">
-      <time>2026</time>
-      <span class="scale">Core-scale magnetic regulation</span>
-      <a href="https://arxiv.org/abs/2601.11098" target="_blank" rel="noopener">Liu et al. - ALMA Polarization Study of Two Massive Clumps</a>
-      <p>Tests whether magnetic tension can redirect gas flow into selected dense cores.</p>
-    </article>
-    <article class="publication-card">
-      <time>2026</time>
-      <span class="scale">Envelope-to-disk transport</span>
-      <a href="https://arxiv.org/abs/2605.03883" target="_blank" rel="noopener">Weng et al. - The Keplerian Disk, Envelope, and Streamers in Sgr C</a>
-      <p>Dissects a disk/envelope/streamer system around an early O-type protostar, closing the loop from cloud gas to stellar growth.</p>
-    </article>
+    {% endfor %}
   </div>
   <div class="note">
-    <p><strong>Reading the sequence:</strong> the early ALMA papers establish fragmentation, outflows, and core statistics; DUET and the protocluster work connect those structures to source populations and star formation efficiency; POLKA adds magnetic forces; BALLAD tests the final delivery of gas into disks. The campaign is therefore a connected argument, not a set of isolated case studies.</p>
+    <p><strong>Reading the sequence:</strong> the 2015-2019 papers establish the 20 km/s cloud, CMZ star-formation rates, and the early-phase census. The CONCERT sequence then adds fragmentation, outflows, core statistics, filaments, continuum source populations, protocluster assembly, magnetic forces, and disk/envelope/streamer systems. The campaign is therefore a connected argument, not a set of isolated case studies.</p>
   </div>
 </section>
 
