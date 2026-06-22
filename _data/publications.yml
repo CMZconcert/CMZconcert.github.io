@@ -14,6 +14,9 @@
   subcampaigns: []
   summary: Establishes that deeply embedded high-mass star formation is already present in the 20 km/s cloud, motivating later high-resolution follow-up.
   summary_zh: 证明 20 km/s 云中已经存在深埋的大质量恒星形成活动，为后续高分辨率观测奠定动机。
+  image: /public/img/papers/2015-lu-protostellar-population.png
+  image_alt: Generated summary plot showing embedded protostars across a Central Molecular Zone cloud
+  image_alt_zh: 展示中央分子区云中深埋原恒星族群的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2015ApJ...814L..18L
   doi: https://doi.org/10.1088/2041-8205/814/2/L18
   arxiv: https://arxiv.org/abs/1510.04901
@@ -32,6 +35,9 @@
   subcampaigns: []
   summary: Characterizes the gas environment of the 20 km/s cloud, one of the anchors for connecting cloud conditions to later core and disk-scale work.
   summary_zh: 刻画 20 km/s 云的气体环境，是后来把云尺度条件同致密核和盘尺度研究连接起来的重要基础。
+  image: /public/img/papers/2017-lu-molecular-environment.png
+  image_alt: Generated summary plot of molecular gas structure and velocity environment
+  image_alt_zh: 展示分子气体结构和速度环境的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2017ApJ...839....1L
   doi: https://doi.org/10.3847/1538-4357/aa67f7
   arxiv: https://arxiv.org/abs/1703.06551
@@ -50,6 +56,9 @@
   subcampaigns: []
   summary: Sets the cloud-scale star formation rate problem that CONCERT later attacks with deeper views of fragmentation, feedback, and gas delivery.
   summary_zh: 提出中央分子区大质量分子云恒星形成率偏低这一云尺度问题，CONCERT 后续通过更深的碎裂、反馈和气体输运研究来追问其原因。
+  image: /public/img/papers/2019-lu-star-formation-rates.png
+  image_alt: Generated summary plot of cloud star formation rates versus dense gas
+  image_alt_zh: 展示云尺度恒星形成率与致密气体关系的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...872..171L
   doi: https://doi.org/10.3847/1538-4357/ab017d
   arxiv: https://arxiv.org/abs/1901.07779
@@ -68,6 +77,9 @@
   subcampaigns: []
   summary: Provides the census framework for identifying where massive star formation is beginning across the CMZ.
   summary_zh: 建立中央分子区早期大质量恒星形成的普查框架，用于判断哪些区域正在开始形成大质量恒星。
+  image: /public/img/papers/2019-lu-early-phase-census.png
+  image_alt: Generated summary plot representing an early-phase high-mass star-formation census
+  image_alt_zh: 表示早期大质量恒星形成普查的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2019ApJS..244...35L
   doi: https://doi.org/10.3847/1538-4365/ab4258
   arxiv: https://arxiv.org/abs/1909.02338
@@ -86,6 +98,9 @@
   subcampaigns: []
   summary: Establishes the ALMA cloud sample and asks how dense gas fragments under CMZ pressures.
   summary_zh: 建立 ALMA 云样本，并检验在中央分子区高压环境下致密气体如何碎裂。
+  image: /public/img/papers/2020-lu-jeans-fragmentation.png
+  image_alt: Generated summary plot of Jeans fragmentation and clustered dense cores
+  image_alt_zh: 展示 Jeans 碎裂和成团致密核的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2020ApJ...894L..14L
   doi: https://doi.org/10.3847/2041-8213/ab8b65
   arxiv: https://arxiv.org/abs/2004.09532
@@ -104,6 +119,9 @@
   subcampaigns: []
   summary: Shows that embedded star formation is widespread once protostellar outflows are traced at high resolution.
   summary_zh: 通过高分辨率追踪原恒星外流，显示嵌入式恒星形成活动在这些云中相当普遍。
+  image: /public/img/papers/2021-lu-protostellar-outflows.png
+  image_alt: Generated summary plot of protostellar outflows across a cloud
+  image_alt_zh: 展示分子云中原恒星外流的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2021ApJ...909..177L
   doi: https://doi.org/10.3847/1538-4357/abde3c
   arxiv: https://arxiv.org/abs/2101.07925
@@ -123,6 +141,9 @@
     - BALLAD
   summary: Pushes to long baselines and asks whether massive protostellar disks in the CMZ resemble Galactic disk counterparts.
   summary_zh: 将观测推进到长基线尺度，检验中央分子区的大质量原恒星盘是否仍类似银河系盘面中的对应天体。
+  image: /public/img/papers/2022-lu-keplerian-disk.png
+  image_alt: Generated summary plot of a massive Keplerian disk with spiral structure
+  image_alt_zh: 展示带有旋臂结构的大质量 Keplerian 盘的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2022NatAs...6..837L
   doi: https://doi.org/10.1038/s41550-022-01681-4
   arxiv: https://arxiv.org/abs/2206.00202
@@ -141,6 +162,9 @@
   subcampaigns: []
   summary: Places core-scale polarization work into the broader CMZ magnetic-field environment.
   summary_zh: 将致密核尺度偏振研究放入更大尺度的中央分子区磁场环境中理解。
+  image: /public/img/papers/2024-lu-magnetic-fields.png
+  image_alt: Generated summary plot of magnetic-field structure and star-formation tracers
+  image_alt_zh: 展示磁场结构与恒星形成示踪源的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2024ApJ...962...39L
   doi: https://doi.org/10.3847/1538-4357/ad1395
   arxiv: https://arxiv.org/abs/2312.01776
@@ -159,6 +183,9 @@
   subcampaigns: []
   summary: Links CMZ pressure confinement to core mass functions, setting the statistical baseline for star formation models.
   summary_zh: 将中央分子区的外压限制同致密核质量函数联系起来，为恒星形成模型提供统计基准。
+  image: /public/img/papers/2025-zhang-core-mass-functions.png
+  image_alt: Generated summary plot of a core mass function with a Salpeter-like slope
+  image_alt_zh: 展示具有类 Salpeter 斜率的致密核质量函数生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2025ApJ...980...44Z
   doi: https://doi.org/10.3847/1538-4357/ad9f28
   arxiv: https://arxiv.org/abs/2412.01593
@@ -177,6 +204,9 @@
   subcampaigns: []
   summary: Shows how thin filamentary structures can record cloud-scale shocks and gas transport.
   summary_zh: 展示细长纤维结构如何记录云尺度激波和气体输运过程。
+  image: /public/img/papers/2025-yang-slim-filaments.png
+  image_alt: Generated summary plot of slim filaments tracing parsec-scale shocks
+  image_alt_zh: 展示细长纤维追踪秒差距尺度激波的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2025A&A...694A..86Y
   doi: https://doi.org/10.1051/0004-6361/202453191
   arxiv: https://arxiv.org/abs/2502.03913
@@ -195,6 +225,9 @@
   subcampaigns: []
   summary: Connects the dense-core census to the way protoclusters assemble in the CMZ environment.
   summary_zh: 把致密核普查同中央分子区原星团的组装方式和恒星形成效率联系起来。
+  image: /public/img/papers/2025-zhang-subclustering.png
+  image_alt: Generated summary plot of subclustering in three protoclusters
+  image_alt_zh: 展示三个原星团子成团结构的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2025ApJ...982L..10Z
   doi: https://doi.org/10.3847/2041-8213/adb30b
   arxiv: https://arxiv.org/abs/2503.00878
@@ -214,6 +247,9 @@
     - DUET
   summary: Uses two bands to separate source populations and identify low spectral-index objects across three clouds.
   summary_zh: 利用两个波段区分源族群，并在三个中央分子区云中识别低谱指数连续谱源。
+  image: /public/img/papers/2025-xu-duet.png
+  image_alt: Generated summary plot of dual-band continuum sources and spectral indices
+  image_alt_zh: 展示双波段连续谱源和谱指数的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2025A&A...697A.164X
   doi: https://doi.org/10.1051/0004-6361/202453601
   arxiv: https://arxiv.org/abs/2503.23700
@@ -233,6 +269,9 @@
     - POLKA
   summary: Tests whether magnetic tension can redirect gas flow into selected dense cores.
   summary_zh: 检验磁张力是否能够改变气体流向，并影响气体进入特定致密核的过程。
+  image: /public/img/papers/2026-liu-polka.png
+  image_alt: Generated summary plot of polarization segments, magnetic tension, and infalling gas
+  image_alt_zh: 展示偏振线段、磁张力和流入气体的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2026ApJ...998..330L
   doi: https://doi.org/10.3847/1538-4357/ae3a9b
   arxiv: https://arxiv.org/abs/2601.11098
@@ -252,6 +291,9 @@
     - BALLAD
   summary: Dissects a disk, envelope, and streamer system around an early O-type protostar, closing the loop from cloud gas to stellar growth.
   summary_zh: 解析 Sgr C 中一颗早 O 型原恒星周围的盘、包层和流束系统，将云中气体如何进入恒星增长过程这一链条闭合起来。
+  image: /public/img/papers/2026-weng-ballad.png
+  image_alt: Generated summary plot of a disk, envelope, and streamers around an O-type protostar
+  image_alt_zh: 展示 O 型原恒星周围盘、包层和流束的生成式摘要图
   adsurl: https://ui.adsabs.harvard.edu/abs/2026ApJ..1003..219W
   doi: https://doi.org/10.3847/1538-4357/ae6813
   arxiv: https://arxiv.org/abs/2605.03883

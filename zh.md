@@ -44,6 +44,10 @@ permalink: /zh/
     <p class="eyebrow">项目逻辑</p>
     <h2>为什么 CONCERT 要与大面积中央分子区巡天并行</h2>
     <p class="section-intro">CMZoom 和 ACES 等大型项目提供了中央分子区的广域图景。CONCERT 则选择少量关键分子云做更深、更精细的观测，让同一批目标可以从秒差距尺度的气体流动一路追踪到致密核和约 100 AU 的盘尺度结构。</p>
+    <figure class="logic-figure">
+      <img src="{{ '/public/img/cmz-overview.png' | relative_url }}" alt="标注了四个 CONCERT 目标云的中央分子区多波段图像">
+      <figcaption>CONCERT 选择中央分子区中的四个代表性目标云：clouds e/f、G0.253+0.016、20 km/s 云和 Sgr C。</figcaption>
+    </figure>
     <div class="flow" aria-label="尺度链条">
       <div class="flow-step">
         <h3>分子云</h3>
@@ -125,6 +129,11 @@ permalink: /zh/
         <span class="scale">{{ paper.scale_zh | default: paper.scale }}</span>
         <span class="publication-program">{{ paper.program_zh | default: paper.program }}</span>
       </p>
+      {% if paper.image %}
+      <figure class="publication-figure">
+        <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt_zh | default: paper.image_alt }}">
+      </figure>
+      {% endif %}
       <a href="{{ paper.adsurl }}" target="_blank" rel="noopener">{{ paper.citation }}</a>
       <p class="publication-title">{{ paper.title }}</p>
       <p>{{ paper.summary_zh | default: paper.summary }}</p>

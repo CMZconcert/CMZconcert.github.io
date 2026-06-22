@@ -35,7 +35,7 @@ https://ui.adsabs.harvard.edu/public-libraries/ZWd6s-SbQcWQBeDGrC3kiw
 Publication cards are generated from `_data/publications.yml`. To add a new CONCERT result:
 
 1. Copy an existing item in `_data/publications.yml`.
-2. Update `id`, `bibcode`, `year`, `citation`, `title`, `scale`, `program`, `summary`, and the ADS/arXiv/DOI links.
+2. Update `id`, `bibcode`, `year`, `citation`, `title`, `scale`, `program`, `summary`, `image`, `image_alt`, and the ADS/arXiv/DOI links.
 3. Set `order` to control where the paper appears in the campaign narrative.
 4. Add the relevant named subcampaign under `subcampaigns`, for example `DUET`, `POLKA`, or `BALLAD`.
 
@@ -48,3 +48,4 @@ Named subcampaign cards are generated from `_data/subcampaigns.yml`. No HTML cha
 - The language switch is in `_includes/default.html`.
 - The visible team list is generated from `_data/team.yml`; include publication-list collaborators and active CONCERT paper contributors, and leave the final `et al.` entry.
 - Subcampaign colors and Chinese labels live in `_data/subcampaigns.yml` and `public/css/style.css`.
+- The CMZ overview image lives at `public/img/cmz-overview.png`; publication thumbnails live in `public/img/papers/`.

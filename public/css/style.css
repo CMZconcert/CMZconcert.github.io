@@ -365,6 +365,29 @@ h3 {
   padding-left: 0.9rem;
 }
 
+.logic-figure,
+.publication-figure {
+  margin: 1rem 0 0;
+}
+
+.logic-figure img,
+.publication-figure img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.logic-figure figcaption {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin-top: 0.45rem;
+}
+
+.publication-figure {
+  margin-top: 0.25rem;
+}
+
 .publication-card {
   display: flex;
   flex-direction: column;

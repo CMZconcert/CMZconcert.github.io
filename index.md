@@ -43,6 +43,10 @@ description: A coordinated, multi-wavelength campaign to understand how star for
     <p class="eyebrow">Campaign Logic</p>
     <h2>Why CONCERT exists alongside large CMZ surveys</h2>
     <p class="section-intro">Large programs such as CMZoom and ACES give the community the wide-area view. CONCERT deliberately goes deeper and finer on a small, carefully chosen sample so that the same clouds can be followed from parsec-scale gas flows down to dense cores and 100 AU-scale disk structures.</p>
+    <figure class="logic-figure">
+      <img src="{{ '/public/img/cmz-overview.png' | relative_url }}" alt="Annotated multi-wavelength view of the Central Molecular Zone showing the four CONCERT target clouds">
+      <figcaption>CONCERT focuses on four selected clouds across the Central Molecular Zone: clouds e/f, G0.253+0.016, the 20 km/s cloud, and Sgr C.</figcaption>
+    </figure>
     <div class="flow" aria-label="Scale flow">
       <div class="flow-step">
         <h3>Clouds</h3>
@@ -124,6 +128,11 @@ description: A coordinated, multi-wavelength campaign to understand how star for
         <span class="scale">{{ paper.scale }}</span>
         <span class="publication-program">{{ paper.program }}</span>
       </p>
+      {% if paper.image %}
+      <figure class="publication-figure">
+        <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt }}">
+      </figure>
+      {% endif %}
       <a href="{{ paper.adsurl }}" target="_blank" rel="noopener">{{ paper.citation }}</a>
       <p class="publication-title">{{ paper.title }}</p>
       <p>{{ paper.summary }}</p>
