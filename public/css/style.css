@@ -151,6 +151,13 @@ h3 {
   font-size: clamp(1.08rem, 2vw, 1.28rem);
 }
 
+.campaign-full-name {
+  max-width: 760px;
+  color: var(--accent-dark);
+  font-size: 1.08rem;
+  font-weight: 720;
+}
+
 .hero-panel,
 .card,
 .program-card,
@@ -235,6 +242,44 @@ h3 {
   padding: 0.22rem 0.55rem;
   font-size: 0.82rem;
   font-weight: 750;
+}
+
+.program-full-name {
+  color: var(--accent-dark);
+  font-weight: 720;
+  margin-bottom: 0.6rem;
+}
+
+.program-publications {
+  border-top: 1px solid var(--border);
+  margin-top: 0.85rem;
+  padding-top: 0.75rem;
+}
+
+.program-publications-title {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.program-publications ul {
+  display: grid;
+  gap: 0.35rem;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.program-publications li {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.muted {
+  color: var(--muted);
 }
 
 .logic-list {

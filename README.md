@@ -37,5 +37,6 @@ Publication cards are generated from `_data/publications.yml`. To add a new CONC
 1. Copy an existing item in `_data/publications.yml`.
 2. Update `id`, `bibcode`, `year`, `citation`, `title`, `scale`, `program`, `summary`, and the ADS/arXiv/DOI links.
 3. Set `order` to control where the paper appears in the campaign narrative.
+4. Add the relevant named subcampaign under `subcampaigns`, for example `DUET`, `POLKA`, or `BALLAD`.
 
-No HTML changes are needed for routine publication updates.
+Named subcampaign cards are generated from `_data/subcampaigns.yml`. No HTML changes are needed for routine publication or subcampaign text updates.

@@ -1,9 +1,9 @@
 title: CONCERT
 email: xinglu@shao.ac.cn
+personal_website: https://xinglunju.github.io
 description: >-
   Coordinated Observations of Nebulae in the Central Molecular Zone Exploring gas Recycling and Transformation
 url: "https://CMZconcert.github.io"
-github_username: CMZconcert
 
 plugins:
   - jekyll-feed

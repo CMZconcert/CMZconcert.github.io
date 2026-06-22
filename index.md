@@ -8,11 +8,11 @@ description: A coordinated, multi-wavelength campaign to understand how star for
   <div>
     <p class="eyebrow">Central Molecular Zone star formation campaign</p>
     <h1>CONCERT</h1>
-    <p class="lead">CONCERT is a coordinated campaign to connect the turbulent, magnetized cloud environment of the Galactic Center to the small-scale physics of filaments, dense cores, disks, streamers, and protostellar feedback.</p>
+    <p class="campaign-full-name">Coordinated Observations of Nebulae in the Central Molecular Zone Exploring gas Recycling and Transformation</p>
+    <p class="lead">CONCERT connects the turbulent, magnetized cloud environment of the Galactic Center to the small-scale physics of filaments, dense cores, disks, streamers, and protostellar feedback.</p>
     <div class="button-row">
       <a class="button" href="#publications">Publication Map</a>
       <a class="pill" href="https://ui.adsabs.harvard.edu/public-libraries/ZWd6s-SbQcWQBeDGrC3kiw" target="_blank" rel="noopener">ADS Library</a>
-      <a class="pill" href="https://github.com/CMZconcert/CMZconcert.github.io" target="_blank" rel="noopener">GitHub</a>
     </div>
   </div>
   <aside class="hero-panel" aria-label="Campaign scope">
@@ -77,33 +77,33 @@ description: A coordinated, multi-wavelength campaign to understand how star for
 <section id="programs" class="section">
   <p class="eyebrow">Programs</p>
   <h2>Named subcampaigns and how they fit together</h2>
-  <p class="section-intro">CONCERT uses a music-inspired naming scheme for focused observing programs. The names are useful shorthand for the campaign logic: characterize the gas, find hidden reservoirs, measure magnetic forces, then follow gas into disks.</p>
+  <p class="section-intro">CONCERT uses a music-inspired naming scheme for focused observing programs. The expanded names below show the role of each subcampaign: characterize the gas, find hidden reservoirs, measure magnetic forces, then follow gas into disks.</p>
   <div class="grid">
+    {% assign subcampaigns = site.data.subcampaigns %}
+    {% assign publications = site.data.publications | sort: "order" %}
+    {% for program in subcampaigns %}
     <article class="program-card">
-      <span class="program-tag">QUARTET</span>
-      <h3>Quad-band excitation mapping</h3>
-      <p>Four ALMA bands toward Sgr C, with 12-m, 7-m, and TP data, are designed to sample gas density and temperature from cloud to core scales. This program connects physical conditions to N-PDFs and core mass functions.</p>
+      <span class="program-tag">{{ program.key }}</span>
+      <h3>{{ program.title }}</h3>
+      <p class="program-full-name">{{ program.full_name }}</p>
+      <p>{{ program.summary }}</p>
+      <div class="program-publications">
+        <p class="program-publications-title">Related publications</p>
+        <ul>
+          {% assign publication_count = 0 %}
+          {% for paper in publications %}
+            {% if paper.subcampaigns contains program.key %}
+              {% assign publication_count = publication_count | plus: 1 %}
+              <li><a href="#{{ paper.id }}">{{ paper.citation }}</a></li>
+            {% endif %}
+          {% endfor %}
+          {% if publication_count == 0 %}
+            <li class="muted">Publication in preparation; no published paper in the current list yet.</li>
+          {% endif %}
+        </ul>
+      </div>
     </article>
-    <article class="program-card">
-      <span class="program-tag">MAZURKA</span>
-      <h3>Molecular absorption and hidden gas</h3>
-      <p>CO and related absorption filaments reveal gas that can be missed in emission-only views. These structures test whether foreground reservoirs, self-absorption, and shocks reshape the apparent CMZ cloud structure.</p>
-    </article>
-    <article class="program-card">
-      <span class="program-tag">POLKA</span>
-      <h3>Polarization of cores and disks</h3>
-      <p>ALMA Band 7 polarization resolves magnetic fields around dense cores. The goal is to compare magnetic tension, gravity, and turbulent distortion where gas is actively moving into cores.</p>
-    </article>
-    <article class="program-card">
-      <span class="program-tag">BALLAD</span>
-      <h3>Broadband long-baseline disks</h3>
-      <p>Long-baseline ALMA observations use line forests and continuum structure to separate disks, envelopes, spirals, and streamers around massive protostars in the CMZ.</p>
-    </article>
-    <article class="program-card">
-      <span class="program-tag">DUET</span>
-      <h3>Dual-band continuum census</h3>
-      <p>Matched 1.3 mm and 3 mm observations provide cloud-wide spectral indices and a source census, linking dust cores, free-free emission, and evolutionary stage across multiple CMZ clouds.</p>
-    </article>
+    {% endfor %}
   </div>
 </section>
 

@@ -9,6 +9,7 @@
   title: Deeply Embedded Protostellar Population in the 20 km s^-1 Cloud of the Central Molecular Zone
   scale: Embedded population
   program: Pre-CONCERT context
+  subcampaigns: []
   summary: Establishes that deeply embedded high-mass star formation is already present in the 20 km/s cloud, motivating later high-resolution follow-up.
   adsurl: https://ui.adsabs.harvard.edu/abs/2015ApJ...814L..18L
   doi: https://doi.org/10.1088/2041-8205/814/2/L18
@@ -23,6 +24,7 @@
   title: The Molecular Gas Environment in the 20 km s^-1 Cloud in the Central Molecular Zone
   scale: Cloud environment
   program: Pre-CONCERT context
+  subcampaigns: []
   summary: Characterizes the gas environment of the 20 km/s cloud, one of the anchors for connecting cloud conditions to later core and disk-scale work.
   adsurl: https://ui.adsabs.harvard.edu/abs/2017ApJ...839....1L
   doi: https://doi.org/10.3847/1538-4357/aa67f7
@@ -37,6 +39,7 @@
   title: Star Formation Rates of Massive Molecular Clouds in the Central Molecular Zone
   scale: Cloud star formation rates
   program: Pre-CONCERT context
+  subcampaigns: []
   summary: Sets the cloud-scale star formation rate problem that CONCERT later attacks with deeper views of fragmentation, feedback, and gas delivery.
   adsurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...872..171L
   doi: https://doi.org/10.3847/1538-4357/ab017d
@@ -51,6 +54,7 @@
   title: A Census of Early-phase High-mass Star Formation in the Central Molecular Zone
   scale: Early-phase census
   program: Pre-CONCERT context
+  subcampaigns: []
   summary: Provides the census framework for identifying where massive star formation is beginning across the CMZ.
   adsurl: https://ui.adsabs.harvard.edu/abs/2019ApJS..244...35L
   doi: https://doi.org/10.3847/1538-4365/ab4258
@@ -65,6 +69,7 @@
   title: "ALMA Observations of Massive Clouds in the Central Molecular Zone: Jeans Fragmentation and Cluster Formation"
   scale: Cloud fragmentation
   program: ALMA cloud mosaics
+  subcampaigns: []
   summary: Establishes the ALMA cloud sample and asks how dense gas fragments under CMZ pressures.
   adsurl: https://ui.adsabs.harvard.edu/abs/2020ApJ...894L..14L
   doi: https://doi.org/10.3847/2041-8213/ab8b65
@@ -79,6 +84,7 @@
   title: "ALMA Observations of Massive Clouds in the Central Molecular Zone: Ubiquitous Protostellar Outflows"
   scale: Feedback and embedded activity
   program: ALMA cloud mosaics
+  subcampaigns: []
   summary: Shows that embedded star formation is widespread once protostellar outflows are traced at high resolution.
   adsurl: https://ui.adsabs.harvard.edu/abs/2021ApJ...909..177L
   doi: https://doi.org/10.3847/1538-4357/abde3c
@@ -93,6 +99,8 @@
   title: A massive Keplerian protostellar disk with flyby-induced spirals in the Central Molecular Zone
   scale: Disk-scale test
   program: BALLAD precursor
+  subcampaigns:
+    - BALLAD
   summary: Pushes to long baselines and asks whether massive protostellar disks in the CMZ resemble Galactic disk counterparts.
   adsurl: https://ui.adsabs.harvard.edu/abs/2022NatAs...6..837L
   doi: https://doi.org/10.1038/s41550-022-01681-4
@@ -107,6 +115,7 @@
   title: Magnetic Fields in the Central Molecular Zone Influenced by Feedback and Weakly Correlated with Star Formation
   scale: Magnetic-field context
   program: Magnetic-field context
+  subcampaigns: []
   summary: Places core-scale polarization work into the broader CMZ magnetic-field environment.
   adsurl: https://ui.adsabs.harvard.edu/abs/2024ApJ...962...39L
   doi: https://doi.org/10.3847/1538-4357/ad1395
@@ -121,6 +130,7 @@
   title: "ALMA Observations of Massive Clouds in the Central Molecular Zone: External-pressure-confined Dense Cores and Salpeter-like Core Mass Functions"
   scale: Core statistics
   program: ALMA cloud mosaics
+  subcampaigns: []
   summary: Links CMZ pressure confinement to core mass functions, setting the statistical baseline for star formation models.
   adsurl: https://ui.adsabs.harvard.edu/abs/2025ApJ...980...44Z
   doi: https://doi.org/10.3847/1538-4357/ad9f28
@@ -135,6 +145,7 @@
   title: "ALMA observations of massive clouds in the central molecular zone: slim filaments tracing parsec-scale shocks"
   scale: Filaments and shocks
   program: ALMA cloud mosaics
+  subcampaigns: []
   summary: Shows how thin filamentary structures can record cloud-scale shocks and gas transport.
   adsurl: https://ui.adsabs.harvard.edu/abs/2025A&A...694A..86Y
   doi: https://doi.org/10.1051/0004-6361/202453191
@@ -149,6 +160,7 @@
   title: Subclustering and Star Formation Efficiency in Three Protoclusters in the Central Molecular Zone
   scale: Protocluster organization
   program: Protocluster assembly
+  subcampaigns: []
   summary: Connects the dense-core census to the way protoclusters assemble in the CMZ environment.
   adsurl: https://ui.adsabs.harvard.edu/abs/2025ApJ...982L..10Z
   doi: https://doi.org/10.3847/2041-8213/adb30b
@@ -163,6 +175,8 @@
   title: "Dual-band Unified Exploration of three CMZ Clouds (DUET): Cloud-wide census of continuum sources showing low spectral indices"
   scale: Cloud-wide continuum census
   program: DUET
+  subcampaigns:
+    - DUET
   summary: Uses two bands to separate source populations and identify low spectral-index objects across three clouds.
   adsurl: https://ui.adsabs.harvard.edu/abs/2025A&A...697A.164X
   doi: https://doi.org/10.1051/0004-6361/202453601
@@ -177,6 +191,8 @@
   title: ALMA Polarization Study of the Magnetic Fields in Two Massive Clumps in the 20 km s^-1 Cloud of the Central Molecular Zone
   scale: Core-scale magnetic regulation
   program: POLKA
+  subcampaigns:
+    - POLKA
   summary: Tests whether magnetic tension can redirect gas flow into selected dense cores.
   adsurl: https://ui.adsabs.harvard.edu/abs/2026ApJ...998..330L
   doi: https://doi.org/10.3847/1538-4357/ae3a9b
@@ -191,6 +207,8 @@
   title: The Keplerian Disk, Envelope, and Streamers Surrounding an Early O-type Protostar in the Sagittarius C Cloud of the Central Molecular Zone
   scale: Envelope-to-disk transport
   program: BALLAD
+  subcampaigns:
+    - BALLAD
   summary: Dissects a disk, envelope, and streamer system around an early O-type protostar, closing the loop from cloud gas to stellar growth.
   adsurl: https://ui.adsabs.harvard.edu/abs/2026ApJ..1003..219W
   doi: https://doi.org/10.3847/1538-4357/ae6813

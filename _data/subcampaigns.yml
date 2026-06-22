@@ -1,0 +1,24 @@
+- key: QUARTET
+  title: Quad-band excitation mapping
+  full_name: Quad-band ALMA mapping of CMZ cloud excitation and structure
+  summary: Four ALMA bands toward selected CMZ clouds, with 12-m, 7-m, and TP data, are designed to sample gas density and temperature from cloud to core scales. This program connects physical conditions to N-PDFs and core mass functions.
+
+- key: MAZURKA
+  title: Molecular absorption and hidden gas
+  full_name: Molecular absorption and H I self-absorption kinematics with ALMA
+  summary: CO and related absorption filaments reveal gas that can be missed in emission-only views. These structures test whether foreground reservoirs, self-absorption, and shocks reshape the apparent CMZ cloud structure.
+
+- key: POLKA
+  title: Polarization of cores and disks
+  full_name: Polarization of cores and disks in the Central Molecular Zone
+  summary: ALMA Band 7 polarization resolves magnetic fields around dense cores. The goal is to compare magnetic tension, gravity, and turbulent distortion where gas is actively moving into cores.
+
+- key: BALLAD
+  title: Broadband long-baseline disks
+  full_name: Broadband ALMA long-baseline look-in at accretion disks
+  summary: Long-baseline ALMA observations use line forests and continuum structure to separate disks, envelopes, spirals, and streamers around massive protostars in the CMZ.
+
+- key: DUET
+  title: Dual-band continuum census
+  full_name: Dual-band Unified Exploration of Three CMZ Clouds
+  summary: Matched 1.3 mm and 3 mm observations provide cloud-wide spectral indices and a source census, linking dust cores, free-free emission, and evolutionary stage across multiple CMZ clouds.
