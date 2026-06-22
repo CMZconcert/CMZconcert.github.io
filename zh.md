@@ -116,7 +116,7 @@ permalink: /zh/
   <div class="grid">
     {% assign publications = site.data.publications | sort: "order" %}
     {% for paper in publications %}
-    <article class="publication-card {% if paper.subcampaigns.size > 0 %}program-{{ paper.subcampaigns.first | downcase }}{% endif %}" id="{{ paper.id }}">
+    <article class="publication-card {% if paper.subcampaigns.size > 0 %}program-{{ paper.subcampaigns.first | downcase }}{% else %}program-unassigned{% endif %}" id="{{ paper.id }}">
       <div class="publication-topline">
         <time>{{ paper.year }}</time>
         <span class="publication-phase">{% if paper.phase == 'Foundation' %}基础论文{% else %}CONCERT 序列{% endif %}</span>
@@ -164,7 +164,7 @@ permalink: /zh/
   <div class="card">
     <p class="eyebrow">团队</p>
     <h2>核心团队与合作者</h2>
-    <p class="section-intro">下面列出的团队成员限于当前 CONCERT 文献列表中出现的合作者。CONCERT 对所有感兴趣的研究者开放；如果你希望参与，请通过 <a href="mailto:{{ site.email }}">{{ site.email }}</a> 联系我。</p>
+    <p class="section-intro">下面列出的团队成员包括当前 CONCERT 文献列表中出现的合作者，以及正在推进 CONCERT 论文的研究者。CONCERT 对所有感兴趣的研究者开放；如果你希望参与，请通过 <a href="mailto:{{ site.email }}">{{ site.email }}</a> 联系我。</p>
     <ul class="team-list">
       {% for person in site.data.team %}
       <li{% if person.et_al %} class="team-etal"{% endif %}>{{ person.name }}</li>

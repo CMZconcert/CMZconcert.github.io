@@ -115,7 +115,7 @@ description: A coordinated, multi-wavelength campaign to understand how star for
   <div class="grid">
     {% assign publications = site.data.publications | sort: "order" %}
     {% for paper in publications %}
-    <article class="publication-card {% if paper.subcampaigns.size > 0 %}program-{{ paper.subcampaigns.first | downcase }}{% endif %}" id="{{ paper.id }}">
+    <article class="publication-card {% if paper.subcampaigns.size > 0 %}program-{{ paper.subcampaigns.first | downcase }}{% else %}program-unassigned{% endif %}" id="{{ paper.id }}">
       <div class="publication-topline">
         <time>{{ paper.year }}</time>
         <span class="publication-phase">{{ paper.phase }}</span>
@@ -163,7 +163,7 @@ description: A coordinated, multi-wavelength campaign to understand how star for
   <div class="card">
     <p class="eyebrow">Team</p>
     <h2>Core team and collaborators</h2>
-    <p class="section-intro">The visible team list below is limited to collaborators represented in the current CONCERT publication list. CONCERT remains open to anyone interested in the campaign; please contact <a href="mailto:{{ site.email }}">{{ site.email }}</a> if you would like to get involved.</p>
+    <p class="section-intro">The visible team list below includes collaborators represented in the current CONCERT publication list, as well as researchers actively working on CONCERT papers. CONCERT remains open to anyone interested in the campaign; please contact <a href="mailto:{{ site.email }}">{{ site.email }}</a> if you would like to get involved.</p>
     <ul class="team-list">
       {% for person in site.data.team %}
       <li{% if person.et_al %} class="team-etal"{% endif %}>{{ person.name }}</li>

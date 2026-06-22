@@ -46,5 +46,5 @@ Named subcampaign cards are generated from `_data/subcampaigns.yml`. No HTML cha
 - The English homepage is `index.md`.
 - The Chinese homepage is `zh.md` and is published at `/zh/`.
 - The language switch is in `_includes/default.html`.
-- The visible team list is generated from `_data/team.yml`; keep it limited to collaborators represented in the publication list and leave the final `et al.` entry.
+- The visible team list is generated from `_data/team.yml`; include publication-list collaborators and active CONCERT paper contributors, and leave the final `et al.` entry.
 - Subcampaign colors and Chinese labels live in `_data/subcampaigns.yml` and `public/css/style.css`.

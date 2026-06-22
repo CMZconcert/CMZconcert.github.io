@@ -305,6 +305,12 @@ h3 {
   --program-dark: #1d4ed8;
 }
 
+.program-unassigned {
+  --program-color: #111827;
+  --program-soft: #f3f4f6;
+  --program-dark: #111827;
+}
+
 .program-card h3 {
   color: var(--program-dark, var(--accent-dark));
 }

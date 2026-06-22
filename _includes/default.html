@@ -2,8 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
   <body>
-    {% assign is_zh = page.lang == 'zh' %}
-    {% if is_zh %}
+    {% if page.lang == 'zh' %}
       {% assign home_url = '/zh/' %}
       {% assign logic_label = '项目逻辑' %}
       {% assign programs_label = '子项目' %}
@@ -28,8 +27,8 @@
           <a href="{{ home_url | relative_url }}#team">{{ team_label }}</a>
         </div>
         <div class="language-switch" aria-label="Language switcher">
-          <a {% unless is_zh %}class="active"{% endunless %} href="{{ '/' | relative_url }}">EN</a>
-          <a {% if is_zh %}class="active"{% endif %} href="{{ '/zh/' | relative_url }}">中文</a>
+          <a {% unless page.lang == 'zh' %}class="active"{% endunless %} href="{{ '/' | relative_url }}">EN</a>
+          <a {% if page.lang == 'zh' %}class="active"{% endif %} href="{{ '/zh/' | relative_url }}">中文</a>
         </div>
       </nav>
     </header>
