@@ -8,9 +8,12 @@
   citation: Lu et al. 2015, ApJL, 814, L18
   title: Deeply Embedded Protostellar Population in the 20 km s^-1 Cloud of the Central Molecular Zone
   scale: Embedded population
+  scale_zh: 深埋原恒星族群
   program: Pre-CONCERT context
+  program_zh: CONCERT 前期背景
   subcampaigns: []
   summary: Establishes that deeply embedded high-mass star formation is already present in the 20 km/s cloud, motivating later high-resolution follow-up.
+  summary_zh: 证明 20 km/s 云中已经存在深埋的大质量恒星形成活动，为后续高分辨率观测奠定动机。
   adsurl: https://ui.adsabs.harvard.edu/abs/2015ApJ...814L..18L
   doi: https://doi.org/10.1088/2041-8205/814/2/L18
   arxiv: https://arxiv.org/abs/1510.04901
@@ -23,9 +26,12 @@
   citation: Lu et al. 2017, ApJ, 839, 1
   title: The Molecular Gas Environment in the 20 km s^-1 Cloud in the Central Molecular Zone
   scale: Cloud environment
+  scale_zh: 分子云环境
   program: Pre-CONCERT context
+  program_zh: CONCERT 前期背景
   subcampaigns: []
   summary: Characterizes the gas environment of the 20 km/s cloud, one of the anchors for connecting cloud conditions to later core and disk-scale work.
+  summary_zh: 刻画 20 km/s 云的气体环境，是后来把云尺度条件同致密核和盘尺度研究连接起来的重要基础。
   adsurl: https://ui.adsabs.harvard.edu/abs/2017ApJ...839....1L
   doi: https://doi.org/10.3847/1538-4357/aa67f7
   arxiv: https://arxiv.org/abs/1703.06551
@@ -38,9 +44,12 @@
   citation: Lu et al. 2019, ApJ, 872, 171
   title: Star Formation Rates of Massive Molecular Clouds in the Central Molecular Zone
   scale: Cloud star formation rates
+  scale_zh: 云尺度恒星形成率
   program: Pre-CONCERT context
+  program_zh: CONCERT 前期背景
   subcampaigns: []
   summary: Sets the cloud-scale star formation rate problem that CONCERT later attacks with deeper views of fragmentation, feedback, and gas delivery.
+  summary_zh: 提出中央分子区大质量分子云恒星形成率偏低这一云尺度问题，CONCERT 后续通过更深的碎裂、反馈和气体输运研究来追问其原因。
   adsurl: https://ui.adsabs.harvard.edu/abs/2019ApJ...872..171L
   doi: https://doi.org/10.3847/1538-4357/ab017d
   arxiv: https://arxiv.org/abs/1901.07779
@@ -53,9 +62,12 @@
   citation: Lu et al. 2019, ApJS, 244, 35
   title: A Census of Early-phase High-mass Star Formation in the Central Molecular Zone
   scale: Early-phase census
+  scale_zh: 早期大质量恒星形成普查
   program: Pre-CONCERT context
+  program_zh: CONCERT 前期背景
   subcampaigns: []
   summary: Provides the census framework for identifying where massive star formation is beginning across the CMZ.
+  summary_zh: 建立中央分子区早期大质量恒星形成的普查框架，用于判断哪些区域正在开始形成大质量恒星。
   adsurl: https://ui.adsabs.harvard.edu/abs/2019ApJS..244...35L
   doi: https://doi.org/10.3847/1538-4365/ab4258
   arxiv: https://arxiv.org/abs/1909.02338
@@ -68,9 +80,12 @@
   citation: Lu et al. 2020, ApJL, 894, L14
   title: "ALMA Observations of Massive Clouds in the Central Molecular Zone: Jeans Fragmentation and Cluster Formation"
   scale: Cloud fragmentation
+  scale_zh: 云尺度碎裂
   program: ALMA cloud mosaics
+  program_zh: ALMA 云尺度拼接观测
   subcampaigns: []
   summary: Establishes the ALMA cloud sample and asks how dense gas fragments under CMZ pressures.
+  summary_zh: 建立 ALMA 云样本，并检验在中央分子区高压环境下致密气体如何碎裂。
   adsurl: https://ui.adsabs.harvard.edu/abs/2020ApJ...894L..14L
   doi: https://doi.org/10.3847/2041-8213/ab8b65
   arxiv: https://arxiv.org/abs/2004.09532
@@ -83,9 +98,12 @@
   citation: Lu et al. 2021, ApJ, 909, 177
   title: "ALMA Observations of Massive Clouds in the Central Molecular Zone: Ubiquitous Protostellar Outflows"
   scale: Feedback and embedded activity
+  scale_zh: 原恒星外流与嵌入活动
   program: ALMA cloud mosaics
+  program_zh: ALMA 云尺度拼接观测
   subcampaigns: []
   summary: Shows that embedded star formation is widespread once protostellar outflows are traced at high resolution.
+  summary_zh: 通过高分辨率追踪原恒星外流，显示嵌入式恒星形成活动在这些云中相当普遍。
   adsurl: https://ui.adsabs.harvard.edu/abs/2021ApJ...909..177L
   doi: https://doi.org/10.3847/1538-4357/abde3c
   arxiv: https://arxiv.org/abs/2101.07925
@@ -98,10 +116,13 @@
   citation: Lu et al. 2022, Nature Astronomy, 6, 837
   title: A massive Keplerian protostellar disk with flyby-induced spirals in the Central Molecular Zone
   scale: Disk-scale test
+  scale_zh: 盘尺度检验
   program: BALLAD precursor
+  program_zh: BALLAD 前身研究
   subcampaigns:
     - BALLAD
   summary: Pushes to long baselines and asks whether massive protostellar disks in the CMZ resemble Galactic disk counterparts.
+  summary_zh: 将观测推进到长基线尺度，检验中央分子区的大质量原恒星盘是否仍类似银河系盘面中的对应天体。
   adsurl: https://ui.adsabs.harvard.edu/abs/2022NatAs...6..837L
   doi: https://doi.org/10.1038/s41550-022-01681-4
   arxiv: https://arxiv.org/abs/2206.00202
@@ -114,9 +135,12 @@
   citation: Lu et al. 2024, ApJ, 962, 39
   title: Magnetic Fields in the Central Molecular Zone Influenced by Feedback and Weakly Correlated with Star Formation
   scale: Magnetic-field context
+  scale_zh: 磁场背景
   program: Magnetic-field context
+  program_zh: 磁场背景研究
   subcampaigns: []
   summary: Places core-scale polarization work into the broader CMZ magnetic-field environment.
+  summary_zh: 将致密核尺度偏振研究放入更大尺度的中央分子区磁场环境中理解。
   adsurl: https://ui.adsabs.harvard.edu/abs/2024ApJ...962...39L
   doi: https://doi.org/10.3847/1538-4357/ad1395
   arxiv: https://arxiv.org/abs/2312.01776
@@ -129,9 +153,12 @@
   citation: Zhang et al. 2025, ApJ, 980, 44
   title: "ALMA Observations of Massive Clouds in the Central Molecular Zone: External-pressure-confined Dense Cores and Salpeter-like Core Mass Functions"
   scale: Core statistics
+  scale_zh: 致密核统计
   program: ALMA cloud mosaics
+  program_zh: ALMA 云尺度拼接观测
   subcampaigns: []
   summary: Links CMZ pressure confinement to core mass functions, setting the statistical baseline for star formation models.
+  summary_zh: 将中央分子区的外压限制同致密核质量函数联系起来，为恒星形成模型提供统计基准。
   adsurl: https://ui.adsabs.harvard.edu/abs/2025ApJ...980...44Z
   doi: https://doi.org/10.3847/1538-4357/ad9f28
   arxiv: https://arxiv.org/abs/2412.01593
@@ -144,9 +171,12 @@
   citation: Yang et al. 2025, A&A, 694, A86
   title: "ALMA observations of massive clouds in the central molecular zone: slim filaments tracing parsec-scale shocks"
   scale: Filaments and shocks
+  scale_zh: 纤维与激波
   program: ALMA cloud mosaics
+  program_zh: ALMA 云尺度拼接观测
   subcampaigns: []
   summary: Shows how thin filamentary structures can record cloud-scale shocks and gas transport.
+  summary_zh: 展示细长纤维结构如何记录云尺度激波和气体输运过程。
   adsurl: https://ui.adsabs.harvard.edu/abs/2025A&A...694A..86Y
   doi: https://doi.org/10.1051/0004-6361/202453191
   arxiv: https://arxiv.org/abs/2502.03913
@@ -159,9 +189,12 @@
   citation: Zhang et al. 2025, ApJL, 982, L10
   title: Subclustering and Star Formation Efficiency in Three Protoclusters in the Central Molecular Zone
   scale: Protocluster organization
+  scale_zh: 原星团结构
   program: Protocluster assembly
+  program_zh: 原星团组装
   subcampaigns: []
   summary: Connects the dense-core census to the way protoclusters assemble in the CMZ environment.
+  summary_zh: 把致密核普查同中央分子区原星团的组装方式和恒星形成效率联系起来。
   adsurl: https://ui.adsabs.harvard.edu/abs/2025ApJ...982L..10Z
   doi: https://doi.org/10.3847/2041-8213/adb30b
   arxiv: https://arxiv.org/abs/2503.00878
@@ -174,10 +207,13 @@
   citation: Xu et al. 2025, A&A, 697, A164
   title: "Dual-band Unified Exploration of three CMZ Clouds (DUET): Cloud-wide census of continuum sources showing low spectral indices"
   scale: Cloud-wide continuum census
+  scale_zh: 云尺度连续谱普查
   program: DUET
+  program_zh: DUET
   subcampaigns:
     - DUET
   summary: Uses two bands to separate source populations and identify low spectral-index objects across three clouds.
+  summary_zh: 利用两个波段区分源族群，并在三个中央分子区云中识别低谱指数连续谱源。
   adsurl: https://ui.adsabs.harvard.edu/abs/2025A&A...697A.164X
   doi: https://doi.org/10.1051/0004-6361/202453601
   arxiv: https://arxiv.org/abs/2503.23700
@@ -190,10 +226,13 @@
   citation: Liu et al. 2026, ApJ, 998, 330
   title: ALMA Polarization Study of the Magnetic Fields in Two Massive Clumps in the 20 km s^-1 Cloud of the Central Molecular Zone
   scale: Core-scale magnetic regulation
+  scale_zh: 核尺度磁场调控
   program: POLKA
+  program_zh: POLKA
   subcampaigns:
     - POLKA
   summary: Tests whether magnetic tension can redirect gas flow into selected dense cores.
+  summary_zh: 检验磁张力是否能够改变气体流向，并影响气体进入特定致密核的过程。
   adsurl: https://ui.adsabs.harvard.edu/abs/2026ApJ...998..330L
   doi: https://doi.org/10.3847/1538-4357/ae3a9b
   arxiv: https://arxiv.org/abs/2601.11098
@@ -206,10 +245,13 @@
   citation: Weng et al. 2026, ApJ, 1003, 219
   title: The Keplerian Disk, Envelope, and Streamers Surrounding an Early O-type Protostar in the Sagittarius C Cloud of the Central Molecular Zone
   scale: Envelope-to-disk transport
+  scale_zh: 包层到盘的输运
   program: BALLAD
+  program_zh: BALLAD
   subcampaigns:
     - BALLAD
   summary: Dissects a disk, envelope, and streamer system around an early O-type protostar, closing the loop from cloud gas to stellar growth.
+  summary_zh: 解析 Sgr C 中一颗早 O 型原恒星周围的盘、包层和流束系统，将云中气体如何进入恒星增长过程这一链条闭合起来。
   adsurl: https://ui.adsabs.harvard.edu/abs/2026ApJ..1003..219W
   doi: https://doi.org/10.3847/1538-4357/ae6813
   arxiv: https://arxiv.org/abs/2605.03883

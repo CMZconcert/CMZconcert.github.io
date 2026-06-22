@@ -40,3 +40,11 @@ Publication cards are generated from `_data/publications.yml`. To add a new CONC
 4. Add the relevant named subcampaign under `subcampaigns`, for example `DUET`, `POLKA`, or `BALLAD`.
 
 Named subcampaign cards are generated from `_data/subcampaigns.yml`. No HTML changes are needed for routine publication or subcampaign text updates.
+
+## Bilingual Pages And Team List
+
+- The English homepage is `index.md`.
+- The Chinese homepage is `zh.md` and is published at `/zh/`.
+- The language switch is in `_includes/default.html`.
+- The visible team list is generated from `_data/team.yml`; keep it limited to collaborators represented in the publication list and leave the final `et al.` entry.
+- Subcampaign colors and Chinese labels live in `_data/subcampaigns.yml` and `public/css/style.css`.

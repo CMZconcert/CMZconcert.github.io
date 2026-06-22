@@ -1,24 +1,44 @@
 - key: QUARTET
+  css_class: quartet
   title: Quad-band excitation mapping
+  title_zh: 四波段激发条件成图
   full_name: Quad-band ALMA mapping of CMZ cloud excitation and structure
+  full_name_zh: 用 ALMA 四个波段刻画中央分子区云的激发条件与结构
   summary: Four ALMA bands toward selected CMZ clouds, with 12-m, 7-m, and TP data, are designed to sample gas density and temperature from cloud to core scales. This program connects physical conditions to N-PDFs and core mass functions.
+  summary_zh: QUARTET 通过 ALMA 多波段、12 米阵列、7 米阵列和总功率数据，从云到致密核尺度测量气体密度和温度，并把物理条件同柱密度概率分布和核质量函数联系起来。
 
 - key: MAZURKA
+  css_class: mazurka
   title: Molecular absorption and hidden gas
+  title_zh: 分子吸收与隐藏气体
   full_name: Molecular absorption and H I self-absorption kinematics with ALMA
+  full_name_zh: 用 ALMA 研究分子吸收与 H I 自吸收运动学
   summary: CO and related absorption filaments reveal gas that can be missed in emission-only views. These structures test whether foreground reservoirs, self-absorption, and shocks reshape the apparent CMZ cloud structure.
+  summary_zh: MAZURKA 利用 CO 等吸收结构寻找仅靠发射线容易遗漏的气体，检验前景气体库、自吸收和激波是否改变了我们看到的中央分子区云结构。
 
 - key: POLKA
+  css_class: polka
   title: Polarization of cores and disks
+  title_zh: 致密核与盘的偏振
   full_name: Polarization of cores and disks in the Central Molecular Zone
+  full_name_zh: 中央分子区致密核与盘的偏振观测
   summary: ALMA Band 7 polarization resolves magnetic fields around dense cores. The goal is to compare magnetic tension, gravity, and turbulent distortion where gas is actively moving into cores.
+  summary_zh: POLKA 用 ALMA Band 7 偏振观测解析致密核周围的磁场，比较磁张力、引力和湍流扰动在气体流入致密核时的相对作用。
 
 - key: BALLAD
+  css_class: ballad
   title: Broadband long-baseline disks
+  title_zh: 宽带长基线原恒星盘
   full_name: Broadband ALMA long-baseline look-in at accretion disks
+  full_name_zh: 用 ALMA 宽带长基线观测深入研究吸积盘
   summary: Long-baseline ALMA observations use line forests and continuum structure to separate disks, envelopes, spirals, and streamers around massive protostars in the CMZ.
+  summary_zh: BALLAD 利用 ALMA 长基线和宽频谱线森林，将中央分子区大质量原恒星周围的盘、包层、旋臂和流束分离出来，追踪气体如何最终进入恒星。
 
 - key: DUET
+  css_class: duet
   title: Dual-band continuum census
+  title_zh: 双波段连续谱普查
   full_name: Dual-band Unified Exploration of Three CMZ Clouds
+  full_name_zh: 三个中央分子区云的双波段统一探索
   summary: Matched 1.3 mm and 3 mm observations provide cloud-wide spectral indices and a source census, linking dust cores, free-free emission, and evolutionary stage across multiple CMZ clouds.
+  summary_zh: DUET 通过匹配的 1.3 毫米和 3 毫米观测获得云尺度谱指数和源表，区分尘埃核、自由-自由辐射与不同演化阶段的源。

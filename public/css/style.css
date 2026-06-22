@@ -1,15 +1,17 @@
 :root {
-  --bg: #f5f8fb;
+  --bg: #f7fcff;
   --surface: #ffffff;
-  --surface-soft: #eef5f8;
-  --text: #18222d;
-  --muted: #536171;
-  --border: #d9e2e8;
-  --accent: #0f766e;
-  --accent-dark: #124d57;
-  --accent-soft: #dff3ef;
-  --link: #0f6b8f;
-  --shadow: 0 18px 45px rgba(24, 34, 45, 0.08);
+  --surface-soft: #e8f8ff;
+  --text: #153243;
+  --muted: #51677a;
+  --border: #c9e8f2;
+  --accent: #00a8e8;
+  --accent-2: #ffb703;
+  --accent-3: #2dc653;
+  --accent-dark: #006d77;
+  --accent-soft: #d9f6ff;
+  --link: #0077b6;
+  --shadow: 0 18px 45px rgba(0, 119, 182, 0.1);
 }
 
 * {
@@ -23,8 +25,10 @@ html {
 body {
   margin: 0;
   background:
-    radial-gradient(circle at 14% -10%, rgba(15, 118, 110, 0.13), transparent 28rem),
-    linear-gradient(180deg, #ffffff 0%, var(--bg) 34rem);
+    radial-gradient(circle at 10% -10%, rgba(0, 168, 232, 0.18), transparent 30rem),
+    radial-gradient(circle at 90% 0%, rgba(255, 183, 3, 0.18), transparent 26rem),
+    radial-gradient(circle at 48% 18rem, rgba(45, 198, 83, 0.1), transparent 30rem),
+    linear-gradient(180deg, #ffffff 0%, var(--bg) 36rem);
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -120,6 +124,28 @@ h3 {
 .nav-links a:hover {
   background: var(--accent-soft);
   color: var(--accent-dark);
+}
+
+.language-switch {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #ffffff;
+  padding: 0.2rem;
+}
+
+.language-switch a {
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 800;
+  padding: 0.28rem 0.55rem;
+  text-decoration: none;
+}
+
+.language-switch a.active {
+  background: var(--accent);
+  color: #ffffff;
 }
 
 .hero,
@@ -226,6 +252,11 @@ h3 {
   padding: 1rem;
 }
 
+.program-card,
+.publication-card {
+  border-top: 4px solid var(--program-color, var(--accent));
+}
+
 .program-card p,
 .publication-card p,
 .team-card p,
@@ -237,15 +268,49 @@ h3 {
   display: inline-flex;
   margin-bottom: 0.6rem;
   border-radius: 999px;
-  background: var(--accent-soft);
-  color: var(--accent-dark);
+  background: var(--program-soft, var(--accent-soft));
+  color: var(--program-dark, var(--accent-dark));
   padding: 0.22rem 0.55rem;
   font-size: 0.82rem;
   font-weight: 750;
 }
 
+.program-quartet {
+  --program-color: #2dc653;
+  --program-soft: #e4fbe9;
+  --program-dark: #167a37;
+}
+
+.program-mazurka {
+  --program-color: #ffb703;
+  --program-soft: #fff4cf;
+  --program-dark: #8a5a00;
+}
+
+.program-polka {
+  --program-color: #00a8e8;
+  --program-soft: #daf5ff;
+  --program-dark: #006d77;
+}
+
+.program-ballad {
+  --program-color: #ff5d8f;
+  --program-soft: #ffe2ec;
+  --program-dark: #9b1748;
+}
+
+.program-duet {
+  --program-color: #2563eb;
+  --program-soft: #dbeafe;
+  --program-dark: #1d4ed8;
+}
+
+.program-card h3 {
+  color: var(--program-dark, var(--accent-dark));
+}
+
 .program-full-name {
-  color: var(--accent-dark);
+  color: var(--program-dark, var(--accent-dark));
   font-weight: 720;
   margin-bottom: 0.6rem;
 }
@@ -334,6 +399,10 @@ h3 {
   padding-left: 0.5rem;
 }
 
+.publication-card .publication-program {
+  color: var(--program-dark, var(--muted));
+}
+
 .publication-card a {
   font-weight: 760;
 }
@@ -389,6 +458,11 @@ h3 {
   margin-bottom: 0.35rem;
 }
 
+.team-etal {
+  color: var(--muted);
+  font-style: italic;
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
@@ -411,13 +485,13 @@ h3 {
 }
 
 .button {
-  background: var(--accent);
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
   color: #ffffff;
   border-color: var(--accent);
 }
 
 .button:hover {
-  background: var(--accent-dark);
+  background: linear-gradient(135deg, var(--accent-dark), #004e64);
   color: #ffffff;
   text-decoration: none;
 }
@@ -446,6 +520,10 @@ h3 {
 
   .nav-links {
     justify-content: flex-start;
+  }
+
+  .language-switch {
+    align-self: flex-start;
   }
 
   .hero {

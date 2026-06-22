@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 title: CONCERT Campaign
 description: A coordinated, multi-wavelength campaign to understand how star formation operates in the Central Molecular Zone.
 ---
@@ -82,7 +83,7 @@ description: A coordinated, multi-wavelength campaign to understand how star for
     {% assign subcampaigns = site.data.subcampaigns %}
     {% assign publications = site.data.publications | sort: "order" %}
     {% for program in subcampaigns %}
-    <article class="program-card">
+    <article class="program-card program-{{ program.css_class }}">
       <span class="program-tag">{{ program.key }}</span>
       <h3>{{ program.title }}</h3>
       <p class="program-full-name">{{ program.full_name }}</p>
@@ -114,7 +115,7 @@ description: A coordinated, multi-wavelength campaign to understand how star for
   <div class="grid">
     {% assign publications = site.data.publications | sort: "order" %}
     {% for paper in publications %}
-    <article class="publication-card" id="{{ paper.id }}">
+    <article class="publication-card {% if paper.subcampaigns.size > 0 %}program-{{ paper.subcampaigns.first | downcase }}{% endif %}" id="{{ paper.id }}">
       <div class="publication-topline">
         <time>{{ paper.year }}</time>
         <span class="publication-phase">{{ paper.phase }}</span>
@@ -162,35 +163,11 @@ description: A coordinated, multi-wavelength campaign to understand how star for
   <div class="card">
     <p class="eyebrow">Team</p>
     <h2>Core team and collaborators</h2>
-    <p class="section-intro">CONCERT is led by a SHAO-centered team with collaborators across Asia, Europe, and North America.</p>
+    <p class="section-intro">The visible team list below is limited to collaborators represented in the current CONCERT publication list. CONCERT remains open to anyone interested in the campaign; please contact <a href="mailto:{{ site.email }}">{{ site.email }}</a> if you would like to get involved.</p>
     <ul class="team-list">
-      <li>Xing Lu</li>
-      <li>Jixiang Weng</li>
-      <li>Feichi Li</li>
-      <li>Guangran Wang</li>
-      <li>Yuhua Liu</li>
-      <li>Jiancheng Feng</li>
-      <li>Xu Zhang</li>
-      <li>Suinan Zhang</li>
-      <li>Fengwei Xu</li>
-      <li>Kai Yang</li>
-      <li>Zhenying Zhang</li>
-      <li>Xing Pan</li>
-      <li>Yu Cheng</li>
-      <li>Shanghuo Li</li>
-      <li>Junhao Liu</li>
-      <li>Sihan Jiao</li>
-      <li>Qizhou Zhang</li>
-      <li>Adam Ginsburg</li>
-      <li>Hauyu Baobab Liu</li>
-      <li>Cara Battersby</li>
-      <li>Daniel Walker</li>
-      <li>Ashley Barnes</li>
-      <li>Jonathan Henshaw</li>
-      <li>Elizabeth A. C. Mills</li>
-      <li>Thushara Pillai</li>
-      <li>Jens Kauffmann</li>
-      <li>Steven Longmore</li>
+      {% for person in site.data.team %}
+      <li{% if person.et_al %} class="team-etal"{% endif %}>{{ person.name }}</li>
+      {% endfor %}
     </ul>
   </div>
 </section>
