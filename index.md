@@ -92,6 +92,11 @@ description: A coordinated, multi-wavelength campaign to understand how star for
       <h3>{{ program.title }}</h3>
       <p class="program-full-name">{{ program.full_name }}</p>
       <p>{{ program.summary }}</p>
+      {% if program.visualization_url %}
+      <p class="program-links">
+        <a class="visualization-link" href="{{ program.visualization_url }}" target="_blank" rel="noopener">{{ program.visualization_label | default: "Data visualization" }}</a>
+      </p>
+      {% endif %}
       <div class="program-publications">
         <p class="program-publications-title">Related publications</p>
         <ul>
@@ -140,6 +145,7 @@ description: A coordinated, multi-wavelength campaign to understand how star for
         <a href="{{ paper.adsurl }}" target="_blank" rel="noopener">ADS</a>
         {% if paper.arxiv %}<a href="{{ paper.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
         {% if paper.doi %}<a href="{{ paper.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+        {% if paper.visualization_url %}<a class="visualization-link" href="{{ paper.visualization_url }}" target="_blank" rel="noopener">{{ paper.visualization_label | default: "Data visualization" }}</a>{% endif %}
       </p>
     </article>
     {% endfor %}

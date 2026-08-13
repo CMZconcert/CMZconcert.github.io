@@ -42,3 +42,6 @@
   full_name_zh: 三个中央分子区云的双波段统一探索
   summary: Matched 1.3 mm and 3 mm observations provide cloud-wide spectral indices and a source census, linking dust cores, free-free emission, and evolutionary stage across multiple CMZ clouds.
   summary_zh: DUET 通过匹配的 1.3 毫米和 3 毫米观测获得云尺度谱指数和源表，区分尘埃核、自由-自由辐射与不同演化阶段的源。
+  visualization_url: https://xfengwei.github.io/magnifier/
+  visualization_label: DUET data visualization
+  visualization_label_zh: DUET 数据可视化

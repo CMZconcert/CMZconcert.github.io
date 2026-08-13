@@ -250,6 +250,9 @@
   image: /public/img/papers/2025-xu-duet.png
   image_alt: Generated summary plot of dual-band continuum sources and spectral indices
   image_alt_zh: 展示双波段连续谱源和谱指数的生成式摘要图
+  visualization_url: https://xfengwei.github.io/magnifier/
+  visualization_label: DUET data visualization
+  visualization_label_zh: DUET 数据可视化
   adsurl: https://ui.adsabs.harvard.edu/abs/2025A&A...697A.164X
   doi: https://doi.org/10.1051/0004-6361/202453601
   arxiv: https://arxiv.org/abs/2503.23700

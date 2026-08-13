@@ -327,6 +327,30 @@ h3 {
   padding-top: 0.75rem;
 }
 
+.program-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.visualization-link {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--program-color, var(--accent));
+  border-radius: 999px;
+  background: var(--program-soft, var(--accent-soft));
+  color: var(--program-dark, var(--accent-dark));
+  padding: 0.28rem 0.62rem;
+  text-decoration: none;
+}
+
+.visualization-link:hover,
+.visualization-link:focus-visible {
+  background: var(--program-color, var(--accent));
+  color: #ffffff;
+}
+
 .program-publications-title {
   color: var(--muted);
   font-size: 0.82rem;
