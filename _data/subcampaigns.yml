@@ -54,6 +54,3 @@
   full_name_zh: 中央分子区非关联巡天数据的协同同质化再分析
   summary: CHORUS collects data from different observational projects and brings them onto a common footing, enabling synergistic studies of outflows, dense cores, and filaments across the CMZ.
   summary_zh: CHORUS 汇集不同观测项目的数据，并通过同质化再分析把它们放到统一框架中，从而协同研究中央分子区中的外流、致密核和纤维结构。
-  logo: /public/img/chorus-logo.svg
-  logo_alt: CHORUS logo showing outflows, dense cores, and filaments feeding a harmonized CMZ survey synthesis
-  logo_alt_zh: CHORUS 标识图，展示外流、致密核和纤维结构汇入同质化中央分子区巡天综合分析
