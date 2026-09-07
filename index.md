@@ -82,7 +82,7 @@ description: A coordinated, multi-wavelength campaign to understand how star for
 <section id="programs" class="section">
   <p class="eyebrow">Programs</p>
   <h2>Named subcampaigns and how they fit together</h2>
-  <p class="section-intro">CONCERT uses a music-inspired naming scheme for focused observing programs. The expanded names below show the role of each subcampaign: characterize the gas, find hidden reservoirs, measure magnetic forces, then follow gas into disks.</p>
+  <p class="section-intro">CONCERT uses a music-inspired naming scheme for focused observing and synthesis programs. The expanded names below show the role of each subcampaign: characterize the gas, find hidden reservoirs, measure magnetic forces, follow gas into disks, and harmonize unconnected CMZ surveys for joint studies of outflows, dense cores, and filaments.</p>
   <div class="grid">
     {% assign subcampaigns = site.data.subcampaigns %}
     {% assign publications = site.data.publications | sort: "order" %}
@@ -91,6 +91,11 @@ description: A coordinated, multi-wavelength campaign to understand how star for
       <span class="program-tag">{{ program.key }}</span>
       <h3>{{ program.title }}</h3>
       <p class="program-full-name">{{ program.full_name }}</p>
+      {% if program.logo %}
+      <figure class="program-logo">
+        <img src="{{ program.logo | relative_url }}" alt="{{ program.logo_alt }}">
+      </figure>
+      {% endif %}
       <p>{{ program.summary }}</p>
       {% if program.visualization_url %}
       <p class="program-links">
@@ -166,6 +171,10 @@ description: A coordinated, multi-wavelength campaign to understand how star for
     <article class="program-card">
       <h3>CONCERT provides depth</h3>
       <p>Deep, matched-resolution, multi-band observations of selected clouds allow physical conditions, magnetic fields, and disk-scale structures to be studied in the same targets.</p>
+    </article>
+    <article class="program-card program-chorus">
+      <h3>CHORUS harmonizes disconnected surveys</h3>
+      <p>CHORUS gathers products from separate CMZ observing projects and reanalyzes them consistently, so outflows, dense cores, and filaments can be compared as parts of one ecosystem.</p>
     </article>
     <article class="program-card">
       <h3>The synthesis tests universality</h3>

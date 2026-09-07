@@ -83,7 +83,7 @@ permalink: /zh/
 <section id="programs" class="section">
   <p class="eyebrow">子项目</p>
   <h2>命名子项目以及它们之间的关系</h2>
-  <p class="section-intro">CONCERT 使用音乐相关的名称来标记不同观测子项目。它们共同构成一条逻辑链：刻画气体、寻找隐藏气体库、测量磁场作用，并继续追踪气体如何进入盘和恒星。</p>
+  <p class="section-intro">CONCERT 使用音乐相关的名称来标记不同观测与综合分析子项目。它们共同构成一条逻辑链：刻画气体、寻找隐藏气体库、测量磁场作用、追踪气体如何进入盘和恒星，并把原本分散的中央分子区巡天数据同质化，用于联合研究外流、致密核和纤维结构。</p>
   <div class="grid">
     {% assign subcampaigns = site.data.subcampaigns %}
     {% assign publications = site.data.publications | sort: "order" %}
@@ -92,6 +92,11 @@ permalink: /zh/
       <span class="program-tag">{{ program.key }}</span>
       <h3>{{ program.title_zh }}</h3>
       <p class="program-full-name">{{ program.full_name_zh }}</p>
+      {% if program.logo %}
+      <figure class="program-logo">
+        <img src="{{ program.logo | relative_url }}" alt="{{ program.logo_alt_zh | default: program.logo_alt }}">
+      </figure>
+      {% endif %}
       <p>{{ program.summary_zh }}</p>
       {% if program.visualization_url %}
       <p class="program-links">
@@ -167,6 +172,10 @@ permalink: /zh/
     <article class="program-card">
       <h3>CONCERT 提供深度</h3>
       <p>对少量选定分子云进行深度、匹配分辨率、多波段观测，让物理条件、磁场和盘尺度结构可以在同一批目标中被统一研究。</p>
+    </article>
+    <article class="program-card program-chorus">
+      <h3>CHORUS 统一分散巡天</h3>
+      <p>CHORUS 收集来自不同中央分子区观测项目的数据，并进行一致的再分析，使外流、致密核和纤维结构能够作为同一个生态系统中的组成部分相互比较。</p>
     </article>
     <article class="program-card">
       <h3>综合图景检验普适性</h3>

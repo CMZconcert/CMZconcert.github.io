@@ -305,6 +305,12 @@ h3 {
   --program-dark: #1d4ed8;
 }
 
+.program-chorus {
+  --program-color: #f97316;
+  --program-soft: #ffedd5;
+  --program-dark: #c2410c;
+}
+
 .program-unassigned {
   --program-color: #111827;
   --program-soft: #f3f4f6;
@@ -319,6 +325,18 @@ h3 {
   color: var(--program-dark, var(--accent-dark));
   font-weight: 720;
   margin-bottom: 0.6rem;
+}
+
+.program-logo {
+  margin: 0.8rem 0;
+}
+
+.program-logo img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--program-soft, var(--border));
+  border-radius: 8px;
+  background: #ffffff;
 }
 
 .program-publications {

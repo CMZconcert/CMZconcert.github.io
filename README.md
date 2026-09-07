@@ -23,7 +23,7 @@ The homepage is organized around the logic of the campaign:
 
 - why a deep small-sample campaign complements large CMZ surveys;
 - how CONCERT connects clouds, filaments, cores, and disks;
-- how QUARTET, MAZURKA, POLKA, BALLAD, and DUET fit together;
+- how QUARTET, MAZURKA, POLKA, BALLAD, DUET, and CHORUS fit together;
 - how the campaign publications build a linked argument about star formation in the CMZ.
 
 The ADS publication library is:
@@ -37,9 +37,9 @@ Publication cards are generated from `_data/publications.yml`. To add a new CONC
 1. Copy an existing item in `_data/publications.yml`.
 2. Update `id`, `bibcode`, `year`, `citation`, `title`, `scale`, `program`, `summary`, `image`, `image_alt`, and the ADS/arXiv/DOI links.
 3. Set `order` to control where the paper appears in the campaign narrative.
-4. Add the relevant named subcampaign under `subcampaigns`, for example `DUET`, `POLKA`, or `BALLAD`.
+4. Add the relevant named subcampaign under `subcampaigns`, for example `DUET`, `POLKA`, `BALLAD`, or `CHORUS`.
 
-Named subcampaign cards are generated from `_data/subcampaigns.yml`. No HTML changes are needed for routine publication or subcampaign text updates.
+Named subcampaign cards are generated from `_data/subcampaigns.yml`. Optional fields such as `logo`, `visualization_url`, and bilingual labels can be added there without changing the page templates.
 
 ## Bilingual Pages And Team List
 
@@ -48,4 +48,4 @@ Named subcampaign cards are generated from `_data/subcampaigns.yml`. No HTML cha
 - The language switch is in `_includes/default.html`.
 - The visible team list is generated from `_data/team.yml`; include publication-list collaborators and active CONCERT paper contributors, and leave the final `et al.` entry.
 - Subcampaign colors and Chinese labels live in `_data/subcampaigns.yml` and `public/css/style.css`.
-- The CMZ overview image lives at `public/img/cmz-overview.png`; publication thumbnails live in `public/img/papers/`.
+- The CMZ overview image lives at `public/img/cmz-overview.png`; publication thumbnails live in `public/img/papers/`; subcampaign logos live in `public/img/`.

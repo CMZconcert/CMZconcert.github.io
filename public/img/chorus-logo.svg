@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="title desc">
+  <title id="title">CHORUS survey synthesis logo</title>
+  <desc id="desc">Three observational threads for outflows, dense cores, and filaments feed a harmonized CHORUS view of the Central Molecular Zone.</desc>
+  <defs>
+    <linearGradient id="cmzBand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="0.52" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#c2410c" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="640" height="260" rx="24" fill="url(#sky)"/>
+  <path d="M62 142 C128 92, 196 94, 252 128 S372 173, 456 117 S562 75, 592 116" fill="none" stroke="url(#cmzBand)" stroke-width="28" stroke-linecap="round" opacity="0.72"/>
+  <path d="M66 149 C133 104, 198 106, 251 135 S368 181, 459 129 S557 95, 592 124" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
+  <g fill="#e0f2fe" opacity="0.7">
+    <circle cx="112" cy="68" r="4"/>
+    <circle cx="176" cy="53" r="3"/>
+    <circle cx="454" cy="57" r="4"/>
+    <circle cx="520" cy="181" r="3"/>
+    <circle cx="74" cy="203" r="3"/>
+    <circle cx="584" cy="63" r="3"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <path d="M153 67 C215 40, 266 47, 319 91" fill="none" stroke="#14b8a6" stroke-width="5" stroke-linecap="round"/>
+    <path d="M153 130 C219 122, 263 120, 319 126" fill="none" stroke="#facc15" stroke-width="5" stroke-linecap="round"/>
+    <path d="M153 193 C222 212, 268 198, 319 160" fill="none" stroke="#f97316" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="130" cy="62" r="33" fill="#ccfbf1" stroke="#14b8a6" stroke-width="3"/>
+    <circle cx="130" cy="130" r="33" fill="#fef9c3" stroke="#facc15" stroke-width="3"/>
+    <circle cx="130" cy="198" r="33" fill="#ffedd5" stroke="#f97316" stroke-width="3"/>
+    <circle cx="352" cy="130" r="76" fill="#ffffff" stroke="#c2410c" stroke-width="4"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" text-anchor="middle">
+    <text x="130" y="57" fill="#0f766e" font-size="13" font-weight="800">OUTFLOWS</text>
+    <text x="130" y="76" fill="#115e59" font-size="20">jet</text>
+    <text x="130" y="125" fill="#92400e" font-size="13" font-weight="800">DENSE CORES</text>
+    <text x="130" y="145" fill="#713f12" font-size="18">mass</text>
+    <text x="130" y="193" fill="#c2410c" font-size="13" font-weight="800">FILAMENTS</text>
+    <text x="130" y="212" fill="#9a3412" font-size="18">flow</text>
+    <text x="352" y="112" fill="#c2410c" font-size="16" font-weight="800" letter-spacing="3">CHORUS</text>
+    <text x="352" y="139" fill="#153243" font-size="22" font-weight="800">CMZ survey</text>
+    <text x="352" y="164" fill="#51677a" font-size="17">homogenized synthesis</text>
+  </g>
+  <g fill="none" stroke="#153243" stroke-linecap="round" opacity="0.62">
+    <path d="M454 101 C485 83, 520 83, 552 103"/>
+    <path d="M454 130 C492 124, 521 128, 558 119"/>
+    <path d="M454 160 C492 181, 527 180, 562 159"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" fill="#153243">
+    <text x="468" y="75" font-size="15" font-weight="800">unconnected surveys</text>
+    <text x="470" y="204" font-size="15" font-weight="800">one comparable frame</text>
+  </g>
+</svg>
